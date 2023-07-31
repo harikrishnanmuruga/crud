@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: postgres
+    password: root
+    url: jdbc:postgresql://localhost:5432/javacrud
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    spring.jpa.hibernate.show-sql=true
+    spring.jpa.hibernate.ddl-auto=update
+    spring.main.allow-bean-definition-overriding=true
+
+
